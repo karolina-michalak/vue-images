@@ -1,9 +1,16 @@
 <template>
-  <h3>dziala</h3>
+  <div>
+    <Header />
+  </div>
 </template>
 
 <script>
+import Header from "./components/Header";
+
 export default {
   name: "App",
+  components: {
+    Header,
+  },
 };
 </script>
