@@ -1,6 +1,8 @@
 <template>
-    <div>
-        Header
+    <div class="ui secondary pointing menu">
+        <a href="/" class="active item">
+        ImageApp
+        </a>
     </div>
 </template>
 
